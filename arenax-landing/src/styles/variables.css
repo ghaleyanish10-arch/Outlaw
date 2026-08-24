@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  /* surfaces */
+  --bg: #0a0b09;
+  --bg-1: #0f110d;
+  --bg-2: #14160f;
+  --panel: #14160f;
+  --panel-2: #1a1d15;
+  --border: #262a1f;
+  --border-soft: #1d201780;
+
+  /* accents */
+  --green: #c8ff4d;
+  --green-dim: #9fd23a;
+  --green-glow: #c8ff4d66;
+  --red: #ff4d4d;
+
+  /* text */
+  --text: #f3f5ee;
+  --text-muted: #9a9f90;
+  --text-dim: #5e6356;
+
+  /* type */
+  --font-display: "Anton", sans-serif;
+  --font-ui: "Chakra Petch", sans-serif;
+  --font-body: "Inter", sans-serif;
+}

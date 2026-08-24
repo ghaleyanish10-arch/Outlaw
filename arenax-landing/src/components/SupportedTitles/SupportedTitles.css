@@ -1,0 +1,37 @@
+.titles-section {
+  padding: 56px clamp(20px, 5vw, 64px);
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--bg-1);
+}
+
+.titles-label {
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  color: var(--text-dim);
+  margin-bottom: 26px;
+}
+
+.titles-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(24px, 5vw, 56px);
+}
+
+.title-item {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.title-item:hover {
+  color: var(--green);
+  transform: translateY(-2px);
+}
